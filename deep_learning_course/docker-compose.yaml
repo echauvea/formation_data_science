@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  app:
+    image: deep_learning_course/cpu-jupyter:latest
+    container_name: deep-learning-course-cpu-jupyter
+    build: .
+    ports:
+      - "8888:8888"  # Jupyter port binding
+      - "6006:6006"  # Tensor board
+    entrypoint: ./docker-entrypoint.sh
+
