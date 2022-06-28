@@ -1,3 +1,6 @@
 [submodule "docker-course"]
 	path = docker-course
 	url = https://github.com/ZiperRom1/docker-course.git
+[submodule "taln-course"]
+	path = taln-course
+	url = https://github.com/vincentmartin/taln-course
